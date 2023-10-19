@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+  width: 100%;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+main .opacity {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  background-color: black;
+  opacity: 0.4;
+}
+main nav {
+  width: 100%;
+  height: 9vh;
+  z-index: 2;
+}
+main nav ul {
+  width: 23%;
+  position: absolute;
+  right: 200px;
+}
+main nav ul li a {
+  text-decoration: none;
+  color: white !important;
+  transition: 0.5;
+}
+main nav ul li a:hover {
+  color: rgb(119, 46, 46);
+}
+main nav h2 {
+  color: white;
+  position: absolute;
+  left: 150px;
+  font-weight: bold;
+}
+main .write {
+  margin-top: 140px;
+  color: white;
+  position: absolute;
+  left: 730px;
+}
+main .write h1 {
+  font-size: 69px;
+  font-weight: bold;
+}
+main .write p {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  main nav ul li {
+    display: none;
+  }
+  main .write {
+    left: 10px;
+  }
+}
+.one {
+  width: 100%;
+  height: 130vh;
+  background-color: white;
+}
+.one .box {
+  width: 42%;
+  border-bottom: 1px solid gray;
+}
+.one .box a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+.one .box a:hover {
+  color: #0085A1;
+}
+.one .box a h2 {
+  font-size: 43px;
+  font-weight: 800;
+}
+.one .box a p {
+  font-size: 28px;
+}
+.one .box .pasted {
+  font-style: italic;
+}
+.one button {
+  border: none;
+  background-color: #0085A1;
+  margin-left: 500px;
+  transition: 0.3;
+}
+.one button a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+.one button:hover {
+  background-color: #004e5e;
+}
+
+@media only screen and (max-width: 600px) {
+  .one {
+    height: 180vh;
+  }
+  .one button {
+    display: none;
+  }
+  .one .box {
+    max-width: 34%;
+    border-bottom: 1px solid gray;
+  }
+  .one .box a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+  }
+  .one .box a:hover {
+    color: #0085A1;
+  }
+  .one .box a h2 {
+    font-size: 23px;
+    font-weight: 800;
+  }
+  .one .box a p {
+    font-size: 18px;
+  }
+}
+footer {
+  width: 100%;
+  height: 17vh;
+}
+footer .icons {
+  width: 18%;
+}
+footer .icons .icon {
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+footer .icons .icon i {
+  font-size: 29px;
+  color: white;
+}
+footer .icons .icon:hover {
+  background-color: #0085A1;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    max-width: 530px;
+  }
+  footer .icons {
+    width: 280px;
+  }
+}/*# sourceMappingURL=style.css.map */
