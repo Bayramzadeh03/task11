@@ -8,163 +8,151 @@
 
 main {
   width: 100%;
-  background-image: url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg");
-  height: 70vh;
+}
+main .one {
+  width: 100%;
+  height: 110vh;
   background-repeat: no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
   background-size: 100% 100%;
-  position: relative;
 }
-main .opacity {
-  left: 0;
-  top: 0;
+main .one nav {
   width: 100%;
-  height: 70vh;
-  position: absolute;
-  background-color: black;
-  opacity: 0.4;
 }
-main nav {
-  width: 100%;
-  height: 9vh;
-  z-index: 2;
+main .one nav .head {
+  width: 79%;
 }
-main nav ul {
-  width: 23%;
-  position: absolute;
-  right: 200px;
-}
-main nav ul li a {
+main .one nav .head a {
+  color: white;
   text-decoration: none;
-  color: white !important;
-  transition: 0.5;
 }
-main nav ul li a:hover {
-  color: rgb(119, 46, 46);
-}
-main nav h2 {
-  color: white;
-  position: absolute;
-  left: 150px;
-  font-weight: bold;
-}
-main .write {
-  margin-top: 140px;
-  color: white;
-  position: absolute;
-  left: 730px;
-}
-main .write h1 {
-  font-size: 69px;
-  font-weight: bold;
-}
-main .write p {
+main .one nav .head .start {
   font-size: 30px;
 }
-
-@media only screen and (max-width: 600px) {
-  main nav ul li {
-    display: none;
-  }
-  main .write {
-    left: 10px;
-  }
+main .one nav .head ul li a {
+  font-size: 18px;
+  color: white;
 }
-.one {
+main .one nav .head ul li a:hover {
+  color: #a2b8b6;
+}
+main .one .header {
+  margin-top: 230px;
+}
+main .one .header h1 {
+  font-size: 100px;
+  font-weight: 500;
+  font-size: 83px;
+  color: white;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+main .one .header P {
+  color: white;
+  font-size: 28px;
+  opacity: 0.7;
+}
+main .one .header button {
+  width: 150px;
+  height: 60px;
+  color: white;
+  background-color: #64a19d;
+  transition: 0.4s;
+  border: none;
+  font-weight: 600;
+}
+main .one .header button:hover {
+  background-color: #558985;
+}
+main .two {
   width: 100%;
-  height: 130vh;
+  height: 60vh;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+main .two h3 {
+  color: white;
+  opacity: 1;
+}
+main .two p {
+  color: white;
+  opacity: 0.7;
+}
+main .two img {
+  margin-top: 82px;
+  width: 1200px;
+}
+main .two a {
+  color: #64a19d;
+}
+main .three {
+  width: 100%;
+  height: 50vh;
   background-color: white;
 }
-.one .box {
-  width: 42%;
-  border-bottom: 1px solid gray;
+main .three .box1 img {
+  width: 648px;
+  height: 400px;
 }
-.one .box a {
-  text-decoration: none;
-  color: black;
-  transition: 0.2s;
+main .three .box1 .write {
+  width: 39%;
 }
-.one .box a:hover {
-  color: #0085A1;
+main .three .box1 p {
+  border-left: 7px solid #64a19d;
 }
-.one .box a h2 {
-  font-size: 43px;
-  font-weight: 800;
+main .four {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
 }
-.one .box a p {
-  font-size: 28px;
+main .four .box2 img {
+  width: 50%;
 }
-.one .box .pasted {
-  font-style: italic;
+main .four .box2 .mistry {
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
-.one button {
-  border: none;
-  background-color: #0085A1;
-  margin-left: 500px;
-  transition: 0.3;
+main .four .box3 img {
+  width: 50%;
 }
-.one button a {
+main .four .box3 .mountains {
+  width: 50%;
+  background-color: black;
+  color: white;
+}
+main .five {
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .five i {
+  color: white;
+  font-size: 40px;
+}
+main .five h2 {
+  color: white;
+}
+main .five .input input {
+  width: 570px;
+  height: 47px;
+  font-size: 15px;
+}
+main .five .input button {
+  width: 130px;
+  height: 47px;
   color: white;
   font-weight: 600;
-  text-decoration: none;
-}
-.one button:hover {
-  background-color: #004e5e;
-}
-
-@media only screen and (max-width: 600px) {
-  .one {
-    height: 180vh;
-  }
-  .one button {
-    display: none;
-  }
-  .one .box {
-    max-width: 34%;
-    border-bottom: 1px solid gray;
-  }
-  .one .box a {
-    text-decoration: none;
-    color: black;
-    transition: 0.2s;
-  }
-  .one .box a:hover {
-    color: #0085A1;
-  }
-  .one .box a h2 {
-    font-size: 23px;
-    font-weight: 800;
-  }
-  .one .box a p {
-    font-size: 18px;
-  }
-}
-footer {
-  width: 100%;
-  height: 17vh;
-}
-footer .icons {
-  width: 18%;
-}
-footer .icons .icon {
-  width: 90px;
-  height: 90px;
-  background-color: black;
-  border-radius: 50%;
+  border: none;
+  background-color: #64a19d;
   transition: 0.3s;
 }
-footer .icons .icon i {
-  font-size: 29px;
-  color: white;
+main .five .input button:hover {
+  background-color: #558985;
 }
-footer .icons .icon:hover {
-  background-color: #0085A1;
-}
-
-@media only screen and (max-width: 600px) {
-  footer {
-    max-width: 530px;
-  }
-  footer .icons {
-    width: 280px;
-  }
+main .six {
+  width: 100%;
+  height: 55vh;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity));
 }/*# sourceMappingURL=style.css.map */

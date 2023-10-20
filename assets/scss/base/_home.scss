@@ -1,0 +1,176 @@
+main{
+    width: 100%;
+    .one {
+        width: 100%;
+        height: 110vh;
+        background-repeat: no-repeat;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg');
+        background-size: 100% 100%;
+    
+        nav {
+            width: 100%;
+    
+    
+            .head {
+                width: 79%;
+    
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+    
+                .start {
+                    font-size: 30px;
+                }
+    
+                ul li a {
+                    font-size: 18px;
+                    color: white;
+    
+                    &:hover {
+                        color: #a2b8b6;
+                    }
+                }
+            }
+    
+        }
+        .header{
+            margin-top: 230px;
+            h1{
+                font-size: 100px;
+                font-weight: 500;
+                font-size: 83px;
+                color: white;
+                opacity: 0.7;
+                letter-spacing: 2px;
+            }
+            P{
+                color: white;
+                font-size: 28px;
+                opacity: 0.7;
+    
+            }
+                button{
+                    width: 150px;
+                    height: 60px;
+                    color: white;
+                    background-color: #64a19d;
+                    transition: 0.4s;
+                    border: none;
+                    font-weight: 600;
+                    &:hover{
+                        background-color: #558985;
+                    }
+                }
+        }
+    }
+    .two{
+        width: 100%;
+        height: 60vh;
+        background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+        h3{
+            color: white;
+            opacity: 1;
+        }
+        p{
+            color: white;
+            opacity: 0.7;
+        }
+        img{
+            margin-top: 82px;
+            width: 1200px;
+            
+        }
+        a{
+            color: #64a19d;
+        }
+    }
+    .three{
+        width: 100%;
+        height:50vh;
+        background-color: white;
+
+        .box1{
+           img{
+            width: 648px;
+            height: 400px;
+           }
+           .write{
+            width: 39%;
+            
+           }
+           p{
+            border-left: 7px solid #64a19d;
+           }
+        }
+      
+        
+    }
+    .four{
+        width: 100%;
+        height:90vh;
+        background-color: white;
+
+        .box2{
+            img{
+                width: 50%;
+            }
+            .mistry{
+                width: 50%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+            }
+        }
+        .box3{
+            img{
+                width: 50%;
+            }
+            .mountains{
+                width: 50%;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+
+    .five{
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        i{
+            color: white;
+            font-size: 40px;
+        }
+        h2{
+            color: white;
+        }
+        .input{
+            input{
+                width: 570px;
+                height: 47px;
+                font-size: 15px;
+            }
+            button{
+                width: 130px;
+                height: 47px;
+                color: white;
+                font-weight: 600;
+                border: none;
+                background-color: #64a19d;
+                transition: 0.3s;
+                &:hover{
+                    background-color: #558985;
+                }
+            }
+        }
+    }
+
+    .six{
+        width: 100%;
+        height: 55vh;
+        background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity))
+    }
+
+}
